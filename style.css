@@ -8,6 +8,8 @@ body{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
+    padding-top: 10px;
 }
 .half-width{
     width: 50%;
@@ -29,4 +31,28 @@ section{
     background-image: url("top-banner.png");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.dream-big{
+    display: flex;
+}
+
+.half-width2{
+    padding-right: 2%;
+    width: 50%;
+}
+
+.half-width2 img{
+    width: 50%;
+    padding-right: 40%;
+    padding-left: 60px;
+}
+
+.button-two{
+    text-decoration: none;
+    color: wheat;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 700;
 }
