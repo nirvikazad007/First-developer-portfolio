@@ -6,7 +6,7 @@ body{
 .name-colour{
     color: orange
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
     padding-top: 10px;
@@ -55,4 +55,23 @@ section{
     padding: 10px 40px;
     border-radius: 5px;
     font-weight: 700;
+}
+.half-width-bb{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10%;
+    border-left: 7px solid blue;
+}
+
+.half-width-bb2{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10%;
+    border-left: 7px solid orange;   
 }
